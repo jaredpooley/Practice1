@@ -1,11 +1,244 @@
-.divone {
-  background-color: orange;
-  width: 50%;
-  height: 100px;
+
+/*----------Html Body---------------------------------------------------------*/
+body {
+	margin: 0px;
+
+background-color: #f2f2f2;
+
+font-family: sans-serif;
+
+}
+
+/*----------Main Header-------------------------------------------------------*/
+
+header.header {
+overflow: hidden;
+
+height: 550px;
+
+margin: 0px;
+
+background: url('img/iceland-header.jpg') no-repeat;
+
+background-size: cover;
+
+}
+
+/*----------Main Navigation*/
+
+li.name {
+display: inline-block;
+
+float: left;
+
+padding: 8px;
+
+text-align: left;
+
+font-family: monospace;
+
+}
+
+.nava {
+text-align: center;
+
+text-decoration: none;
+
+color: white;
+
+}
+
+.navn {
+	color: white;
+
+font-size: 25px;
+
+}
+
+ol.navigationlist {
+overflow: hidden;
+
+margin: 0px;
+
+padding: 0px;
+
+list-style-type: none;
+
+background-color: black;
+
+}
+
+li.nav {
+display: inline-block;
+
+float: right;
+
+padding: 8px;
+
+text-align: center;
+
+text-decoration: none;
+
+color: white;
+
+font-family: cursive;
+
+}
+
+/*----------Profile-Pic Styling*/
+
+img.profile-pic {
+	width: 200px;
+
+height: 200px;
+
+border: .5px solid white;
+
+}
+
+/*----------Main-Content------------------------------------------------------*/
+
+/*h1.pagetitle {
+max-width: 150px;
+
+text-align: center;
+
+color: white;
+
+background-color: black;
+
+font-size: 5.625em;
+
+}*/ - /*No page title in Use atm*/
+
+.intro {
+margin: auto;
+margin-left: 15px;
+}
+
+/*----------Main Article*/
+
+article {  /*Includes .left an .right class articles.*/
+
+padding: 5px 15px 5px 15px;
+
+border-bottom: 3px solid red;
+
+border-radius: 10px;
+
+background-color: #ffffff;
+
+width: 40%;
+}
+/* TODO: fix 100% */
+/*.onehundred {  --- try to find what is stopping 100% height in all articles!
+	height: 110%;
+}*/
+
+.article-container {
+	overflow: auto;
+	margin-top: 25px;
+	height: 100%;
+}
+
+.article-container2 {
+	overflow: hidden;
+	height: 500px;
 }
 
 .one {
-  background-color: blue;
-  width: 40px;
-  height: 80%;
+	height: 100%;
+	width: 200px;
+	background-color: red;
+}
+
+.left {
+	float: left;
+	margin-right: 1%;
+	margin-left: 6%;
+	height: 100%; /*Why isnt this working??*/
+	margin-bottom: 0px;
+}
+
+.right {
+	float: right;
+	margin-right: 6%;
+	margin-left: 1%;
+}
+
+.sectionhead {
+text-align: center;
+
+text-decoration-line: underline;
+
+font-size: 2.5em; /*40/16 = 2.5*/
+
+}
+
+.articlehead {
+	text-align: center;
+}
+
+.pubdate {
+	color: #515E63;
+}
+
+/*----------Pseudo Classes----------------------------------------------------*/
+
+a.external:visited {
+	color: forestgreen;
+}
+
+a.external:hover {
+	color: #c21291;
+}
+
+article:hover {
+	border-bottom-color: green;
+}
+
+
+.nava:hover {
+	color: #f2f2f2;
+}
+
+/*----------Footer Styling----------------------------------------------------*/
+
+ol.footer {
+	overflow: hidden;
+}
+
+li.footer {
+	display: inline;
+
+display: block;
+
+float: right;
+
+padding: 5px;
+
+font-size: small;
+
+}
+
+.footnav {
+text-decoration: none;
+
+color: #4a4f50;
+
+}
+
+div.footc {
+	color: black;
+}
+
+li.footc {
+display: inline;
+
+display: block;
+
+float: left;
+
+padding: 5px;
+
 }
